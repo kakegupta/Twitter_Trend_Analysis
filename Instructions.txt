@@ -1,8 +1,8 @@
-# Compile instructions
+## Compile instructions
 1. The project is an intelliJ IDEA project. Load the project in the IDE and run the task 'package' or 'assembly' to build the executable jar.
 
 
-# Run instructions
+## Run instructions
 1. Running the Tweet Downloader from the input data to find the edges based on the retweet pattern:
 
 	> scala -classpath <JAR> project.tweetanalysis.download.TweetDownloader <input file path containing tweet IDs> <HDFS output file path>
